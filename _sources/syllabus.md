@@ -5,7 +5,7 @@ Provide cadets with fundamental knowledge and skills to design and develop machi
 
 ## Course Prerequisites
 
-ECE 346 and Math 356/377 or department approval
+Math 243 and Math 245
 
 ## Course Schedule
 The course schedule is [here](schedule.md)
@@ -23,7 +23,7 @@ The **Grade distribution** for this course is shown below.
 |     Total              |     100%    |     Total              |     100%    |
 
 ```{image} ./figures/GradeDistribution.png
-:width: 760
+:width: 560
 :align: center
 ```
 
@@ -35,7 +35,7 @@ Electrical and Computer Engineering courses are contract graded using the follow
 | 90 <= A- < 93   | 83 <= B < 87   | 73 <= C < 77    | 0 <= F < 60   | 
 |                 | 80 <= B- < 83  | 70 <= C- < 73   |               |
 
-You must complete all minimum functionalities on labs in order to complete the course.  Even if an assignment is so late that no credit will be received, the assignment must be completed to the satisfaction of the instructor to prevent a grade of “Incomplete.”
+You must complete all minimum functionalities on projects in order to complete the course.  Even if an assignment is so late that no credit will be received, the assignment must be completed to the satisfaction of the instructor to prevent a grade of “Incomplete.”
 
 ## Primary Communication and Control (C2)
 All communication and course materials will be provided through a course and section Team. Additionally, videos will be uploaded to a YouTube channel for your convenience. Lastly, Bitbucket will be used for cadets to provide their source code for homework and laboratory assignments.
@@ -44,24 +44,18 @@ All communication and course materials will be provided through a course and sec
 ## Textbooks
 **Required**
 
-<a href="https://www.cambridge.org/us/universitypress/subjects/engineering/communications-and-signal-processing/machine-learning-engineers?format=HB" target="_blank"> Machine Learning for Engineers</a>, Osvaldo Simeone, Cambridge, November 2022.
+K. H. Rosen, <a href="https://www.mheducation.com/highered/product/Discrete-Mathematics-and-Its-Applications-Rosen.html" target="_blank"> _Discrete Mathematics and Its Applications_</a>, 8th ed. New York, NY, USA: McGraw-Hill, 2019.
 
-**Optional**
-
-<a href="https://mitpress.mit.edu/9780262046824/" target="_blank">Probabilistic Machine Learning: An Introduction</a>, Kevin P. Murphy, MIT Press, 2022. [Free PDF](https://github.com/probml/pml-book/releases/latest/download/book1.pdf)
-<br>
-<a href="https://www.microsoft.com/en-us/research/people/cmbishop/prml-book/" target="_blank">Pattern Recognition and Machine Learning</a>, Christopher M. Bishop, Springer, 2006. <a href="https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf" target="_blank">Free PDF</a>
-<br>
-<a href="http://www.cs.cmu.edu/~tom/mlbook.html" target="_blank">Machine Learning</a>, Tom Mitchell, McGraw Hill, 1997. <a href="http://www.cs.cmu.edu/~tom/files/MachineLearningTomMitchell.pdf" target="_blank">Free PDF</a>
+D. P. Bertsekas and J. N. Tsitsiklis, <a href="http://athenasc.com/probbook.html" target="_blank">*Introduction to Probability*</a>, 2nd ed. Belmont, MA, USA: Athena Scientific, 2008.
 
 
 ## Collaboration Policy
 
 Unless  specifically directed otherwise, the collaboration policy for this course is:
 
-- For all assignments in this course, unless otherwise noted on the assignment, you may collaborate with any other cadets currently enrolled in ECE 487. We expect all graded work to be in your own work. Copying another person’s work, with or without documentation, will result in NO academic credit. Furthermore, copying without attribution is dishonorable and will be dealt with as an honor code violation.
+- For all assignments in this course, unless otherwise noted on the assignment, you may collaborate with any other cadets currently enrolled in this course. We expect all graded work to be in your own work. Copying another person’s work, with or without documentation, will result in NO academic credit. Furthermore, copying without attribution is dishonorable and will be dealt with as an honor code violation.
 - GRs are individual efforts. No collaboration is allowed while taking these exams. All electronic devices (phones, smartwatches, computers, tablets, etc.) must be placed out of sight for the duration of the event. If any electronic device is seen during the event, the student will receive a zero for that effort. 
-- Authorized resources include any material from the ECE 487 course site and online sources regarding C programming syntax only. This does not include any solutions or solution stubs for challenges similar to those asked in any assignments. 
+- Authorized resources include any material from the course site and online sources regarding Python programming syntax only. This does not include any solutions or solution stubs for challenges similar to those asked in any assignments. 
 
 ## Documentation Requirements
 
@@ -82,7 +76,7 @@ You are encouraged to use AI tools (such as ChatGPT, Gemini, Copilot, etc.) to *
 Schedule EI with an instructor if you are having difficulty with the course material.  You must have read the assignment and attempted the homework before requesting EI.  Note:  You are responsible for material if you miss class, so get notes from someone in your section.  For example, you miss the lesson where the instructor announces a quiz for the next lesson or the instructor assigns homework due next lesson.  Even though you missed the lesson, you are still responsible for the quiz, homework, or any other assignments made.  It is in your best interest to check with your classmates after an absence.  After you’ve read the assignment, attempted the homework, and checked with your classmates, you may then schedule EI if you have difficulty with the material—not to make up a class you missed.
 
 ## CAS Policy  
-For CAS notification, email your instructor prior to your absence and include the lesson number, the date, and the reason (descriptive reason—don’t just send a CAS code or SCA number) as soon as possible, preferably before the absence occurs.  It is your responsibility to check your SCA to see if instructor permission is required.  If it is, you must make the request prior to your absence.  If you miss class, you are responsible for all material (e.g. assignments, notes, announcements, handouts, etc.) covered in class.  Please check with another cadet in your section to find out what you missed.  
+For CAS notification, email your instructor prior to your absence and include the lesson number, the date, and the reason (descriptive reason—don’t just send a CAS code or SCA number) as soon as possible, preferably before the absence occurs.  _**It is your responsibility to check your SCA to see if instructor permission is required**_.  If it is, you must make the request prior to your absence.  If you miss class, you are responsible for all material (e.g. assignments, notes, announcements, handouts, etc.) covered in class.  Please check with another cadet in your section to find out what you missed.  
 
 When a cadet is absent on the day that an assignment is due, or on the date of a quiz or GR, the cadet is responsible for meeting the following standards: 
 - Scheduled Absence: If a cadet will miss any graded event due to a scheduled absence such as an SCA, sport team trip, or scheduled Lasik surgery, the cadet is expected to complete all work BEFORE the absence.  
