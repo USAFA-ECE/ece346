@@ -16,11 +16,10 @@ The **Grade distribution** for this course is shown below.
 
 |     Prog               |             |     Final              |             |
 |------------------------|-------------|------------------------|-------------|
-|     GR (1)             |     20%     |     GRs (2)            |     20%     |
-|     Labs               |     15%     |                        |            |
-|     Homework           |     45%     |     Homework & Labs    |     50%     |
-|     Project (1)        |     20%     |     Projects (2)       |     30%     |
-|                        |             |                        |             |
+|     GR (1)             |     40%     |     GRs (2)            |     20%     |
+|     Homework           |     60%     |     Homework           |     40%     |
+|                        |             |     Projects (2)       |     15%     |
+|                        |             |     Final              |     25%     |
 |     Total              |     100%    |     Total              |     100%    |
 
 ```{image} ./figures/GradeDistribution.png
@@ -71,6 +70,12 @@ Unless  specifically directed otherwise, the collaboration policy for this cours
 - If no help was received on this assignment, the documentation statement must state “None.”
 - If you checked answers with anyone, you must document with whom on which problems. You must document whether you made any changes or not.  If you did make changes, you must document the problems you changed and the reasons why.
 - Vague documentation statements will result in a 5% deduction on the assignment.
+
+
+## AI Usage Policy
+
+You are encouraged to use AI tools (such as ChatGPT, Gemini, Copilot, etc.) to **support your understanding** of course concepts—such as reviewing terminology, clarifying ideas, or generating practice problems. However, using AI to **generate answers, code, or reports** for assignments, projects, or exams is strictly prohibited and will be treated as a violation of academic integrity. All submitted work must reflect your own effort and understanding. For the full policy and examples of acceptable vs. unacceptable use, visit: [AI Usage Policy](AI_policy) 
+
 
 ## Extra Instruction (EI)
 
