@@ -16,9 +16,9 @@ The **Grade distribution** for this course is shown below.
 
 |     Prog               |             |     Final              |             |
 |------------------------|-------------|------------------------|-------------|
-|     GR (1)             |     40%     |     GRs (2)            |     20%     |
-|     Homework           |     60%     |     Homework           |     40%     |
-|                        |             |     Projects (2)       |     15%     |
+|     GR (1)             |     30%     |     GRs (2)            |     20%     |
+|     Homework           |     60%     |     Homework           |     45%     |
+|     Quizzes            |     10$     |     Quizzes            |     10%     |
 |                        |             |     Final              |     25%     |
 |     Total              |     100%    |     Total              |     100%    |
 
@@ -47,7 +47,6 @@ All communication and course materials will be provided through a course and sec
 K. H. Rosen, <a href="https://www.mheducation.com/highered/product/Discrete-Mathematics-and-Its-Applications-Rosen.html" target="_blank"> _Discrete Mathematics and Its Applications_</a>, 8th ed. New York, NY, USA: McGraw-Hill, 2019.
 
 D. P. Bertsekas and J. N. Tsitsiklis, <a href="http://athenasc.com/probbook.html" target="_blank">*Introduction to Probability*</a>, 2nd ed. Belmont, MA, USA: Athena Scientific, 2008.
-
 
 ## Collaboration Policy
 
