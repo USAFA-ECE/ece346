@@ -18,7 +18,7 @@ The **Grade distribution** for this course is shown below.
 |------------------------|-------------|------------------------|-------------|
 |     GR (1)             |     30%     |     GRs (2)            |     20%     |
 |     Homework           |     60%     |     Homework           |     45%     |
-|     Quizzes            |     10$     |     Quizzes            |     10%     |
+|     Quizzes            |     10%     |     Quizzes            |     10%     |
 |                        |             |     Final              |     25%     |
 |     Total              |     100%    |     Total              |     100%    |
 
