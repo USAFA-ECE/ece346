@@ -10,7 +10,23 @@ A **proposition** is a declarative statement that is either *true* or *false*, b
 - "The Moon is made of cheese." (False)
 - "2 + 2 = 4" (True)
 
+#### Compound Proposition
+A **compound proposition** is a logical statement formed by combining two or more **simple propositions** using logical connectives such as **and (∧)**, **or (∨)**, **not (¬)**, **if...then (→)**, and **if and only if (↔)**. It expresses a more complex relationship between truth values.
+
+**Examples:**
+- "The Earth orbits the Sun **and** 2 + 2 = 4" — combines two true propositions using ∧.
+- "If it rains, then the ground gets wet" — implication using →.
+- "Either the Moon is made of cheese **or** pigs can fly" — disjunction using ∨.
+
 ---
+
+#### Simple (Non-Compound) Proposition
+A **simple proposition** is a single declarative statement that does **not** contain any logical connectives. It stands alone and can be evaluated as either *true* or *false*.
+
+**Examples:**
+- "The Earth orbits the Sun" — true
+- "The Moon is made of cheese" — false
+- "2 + 2 = 4" — true
 
 ### Predicate
 A **predicate** is a function or property that returns a truth value when applied to one or more subjects. In logic, it expresses something about an object or variable, often written as \( P(x) \).
