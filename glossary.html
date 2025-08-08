@@ -385,7 +385,11 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#glossary-of-logical-terms">Glossary of Logical Terms</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#proposition">Proposition</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#proposition">Proposition</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#compound-proposition">Compound Proposition</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#simple-non-compound-proposition">Simple (Non-Compound) Proposition</a></li>
+</ul>
+</li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#predicate">Predicate</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#premise">Premise</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#argument">Argument</a></li>
@@ -428,8 +432,28 @@ document.write(`
 <li><p>“The Moon is made of cheese.” (False)</p></li>
 <li><p>“2 + 2 = 4” (True)</p></li>
 </ul>
+<section id="compound-proposition">
+<h4>Compound Proposition<a class="headerlink" href="#compound-proposition" title="Link to this heading">#</a></h4>
+<p>A <strong>compound proposition</strong> is a logical statement formed by combining two or more <strong>simple propositions</strong> using logical connectives such as <strong>and (∧)</strong>, <strong>or (∨)</strong>, <strong>not (¬)</strong>, <strong>if…then (→)</strong>, and <strong>if and only if (↔)</strong>. It expresses a more complex relationship between truth values.</p>
+<p><strong>Examples:</strong></p>
+<ul class="simple">
+<li><p>“The Earth orbits the Sun <strong>and</strong> 2 + 2 = 4” — combines two true propositions using ∧.</p></li>
+<li><p>“If it rains, then the ground gets wet” — implication using →.</p></li>
+<li><p>“Either the Moon is made of cheese <strong>or</strong> pigs can fly” — disjunction using ∨.</p></li>
+</ul>
 </section>
 <hr class="docutils" />
+<section id="simple-non-compound-proposition">
+<h4>Simple (Non-Compound) Proposition<a class="headerlink" href="#simple-non-compound-proposition" title="Link to this heading">#</a></h4>
+<p>A <strong>simple proposition</strong> is a single declarative statement that does <strong>not</strong> contain any logical connectives. It stands alone and can be evaluated as either <em>true</em> or <em>false</em>.</p>
+<p><strong>Examples:</strong></p>
+<ul class="simple">
+<li><p>“The Earth orbits the Sun” — true</p></li>
+<li><p>“The Moon is made of cheese” — false</p></li>
+<li><p>“2 + 2 = 4” — true</p></li>
+</ul>
+</section>
+</section>
 <section id="predicate">
 <h3>Predicate<a class="headerlink" href="#predicate" title="Link to this heading">#</a></h3>
 <p>A <strong>predicate</strong> is a function or property that returns a truth value when applied to one or more subjects. In logic, it expresses something about an object or variable, often written as ( P(x) ).</p>
@@ -654,7 +678,11 @@ document.write(`
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#glossary-of-logical-terms">Glossary of Logical Terms</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#proposition">Proposition</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#proposition">Proposition</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#compound-proposition">Compound Proposition</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#simple-non-compound-proposition">Simple (Non-Compound) Proposition</a></li>
+</ul>
+</li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#predicate">Predicate</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#premise">Premise</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#argument">Argument</a></li>
