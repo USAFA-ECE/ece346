@@ -8,7 +8,7 @@ This schedule is subject to change as appropriate.
 |Lsn| Topic                                           | Reading           | Due |
 |:-:|-------------------------------------------------|-------------------|:---:|
 |1  | Course Intro                                    |                   |     |
-|2  | Course Intro & Propositional Logic              | 1.1               |     |
+|2  | Propositional Logic                             | 1.1               |     |
 |3  | Connectives & Logical Equivalence               | 1.2-1.3.4         |     |
 |4  | Predicates & Quantifiers                        | 1.4-1.5           | HW1 |
 |5  | Rules of Inference                              | 1.6               |     |
