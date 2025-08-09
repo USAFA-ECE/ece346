@@ -105,6 +105,41 @@ An argument is **valid** if the conclusion necessarily follows from the premises
 
 ---
 
+### Converse
+
+The **converse** of a conditional proposition $p \to q$ is the statement $q \to p$. It is formed by **swapping** the hypothesis and the conclusion.
+The converse is **not** logically equivalent to the original statement in general.
+
+**Examples:**
+
+* Original: "If it rains, then the ground gets wet." ($p \to q$)
+* Converse: "If the ground gets wet, then it rains." ($q \to p$) — This is not always true (sprinklers, for example).
+
+---
+
+### Contrapositive
+
+The **contrapositive** of a conditional proposition $p \to q$ is the statement $\sim q \to \sim p$. It is formed by **swapping** and **negating** both the hypothesis and the conclusion.
+The contrapositive **is logically equivalent** to the original statement.
+
+**Examples:**
+
+* Original: "If it rains, then the ground gets wet." ($p \to q$)
+* Contrapositive: "If the ground does not get wet, then it did not rain." ($\sim q \to \sim p$) — Always true if the original is true.
+
+---
+
+### Inverse
+
+The **inverse** of a conditional proposition $p \to q$ is the statement $\sim p \to \sim q$. It is formed by **negating** both the hypothesis and the conclusion without swapping them.
+The inverse is **not** logically equivalent to the original statement in general.
+
+**Examples:**
+
+* Original: "If it rains, then the ground gets wet." ($p \to q$)
+* Inverse: "If it does not rain, then the ground does not get wet." ($\sim p \to \sim q$) — Not always true (sprinklers again).
+
+---
 
 ## Glossary of Proof-Related Terms
 

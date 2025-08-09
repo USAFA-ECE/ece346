@@ -57,6 +57,8 @@
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'glossary';</script>
     <link rel="icon" href="_static/favicon.ico"/>
     <link rel="index" title="Index" href="genindex.html" />
@@ -396,6 +398,9 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion">Conclusion</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#inference-reasoning">Inference (Reasoning)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#validity-valid">Validity (Valid)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#converse">Converse</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#contrapositive">Contrapositive</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#inverse">Inverse</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#glossary-of-proof-related-terms">Glossary of Proof-Related Terms</a><ul class="nav section-nav flex-column">
@@ -540,6 +545,39 @@ document.write(`
 </ul>
 </li>
 </ol>
+</section>
+<hr class="docutils" />
+<section id="converse">
+<h3>Converse<a class="headerlink" href="#converse" title="Link to this heading">#</a></h3>
+<p>The <strong>converse</strong> of a conditional proposition <span class="math notranslate nohighlight">\(p \to q\)</span> is the statement <span class="math notranslate nohighlight">\(q \to p\)</span>. It is formed by <strong>swapping</strong> the hypothesis and the conclusion.
+The converse is <strong>not</strong> logically equivalent to the original statement in general.</p>
+<p><strong>Examples:</strong></p>
+<ul class="simple">
+<li><p>Original: “If it rains, then the ground gets wet.” (<span class="math notranslate nohighlight">\(p \to q\)</span>)</p></li>
+<li><p>Converse: “If the ground gets wet, then it rains.” (<span class="math notranslate nohighlight">\(q \to p\)</span>) — This is not always true (sprinklers, for example).</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="contrapositive">
+<h3>Contrapositive<a class="headerlink" href="#contrapositive" title="Link to this heading">#</a></h3>
+<p>The <strong>contrapositive</strong> of a conditional proposition <span class="math notranslate nohighlight">\(p \to q\)</span> is the statement <span class="math notranslate nohighlight">\(\sim q \to \sim p\)</span>. It is formed by <strong>swapping</strong> and <strong>negating</strong> both the hypothesis and the conclusion.
+The contrapositive <strong>is logically equivalent</strong> to the original statement.</p>
+<p><strong>Examples:</strong></p>
+<ul class="simple">
+<li><p>Original: “If it rains, then the ground gets wet.” (<span class="math notranslate nohighlight">\(p \to q\)</span>)</p></li>
+<li><p>Contrapositive: “If the ground does not get wet, then it did not rain.” (<span class="math notranslate nohighlight">\(\sim q \to \sim p\)</span>) — Always true if the original is true.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="inverse">
+<h3>Inverse<a class="headerlink" href="#inverse" title="Link to this heading">#</a></h3>
+<p>The <strong>inverse</strong> of a conditional proposition <span class="math notranslate nohighlight">\(p \to q\)</span> is the statement <span class="math notranslate nohighlight">\(\sim p \to \sim q\)</span>. It is formed by <strong>negating</strong> both the hypothesis and the conclusion without swapping them.
+The inverse is <strong>not</strong> logically equivalent to the original statement in general.</p>
+<p><strong>Examples:</strong></p>
+<ul class="simple">
+<li><p>Original: “If it rains, then the ground gets wet.” (<span class="math notranslate nohighlight">\(p \to q\)</span>)</p></li>
+<li><p>Inverse: “If it does not rain, then the ground does not get wet.” (<span class="math notranslate nohighlight">\(\sim p \to \sim q\)</span>) — Not always true (sprinklers again).</p></li>
+</ul>
 </section>
 </section>
 <hr class="docutils" />
@@ -689,6 +727,9 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion">Conclusion</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#inference-reasoning">Inference (Reasoning)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#validity-valid">Validity (Valid)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#converse">Converse</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#contrapositive">Contrapositive</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#inverse">Inverse</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#glossary-of-proof-related-terms">Glossary of Proof-Related Terms</a><ul class="nav section-nav flex-column">
