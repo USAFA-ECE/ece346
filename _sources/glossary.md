@@ -3,7 +3,7 @@
 ## Glossary of Logical Terms
 
 ### Proposition
-A **proposition** is a declarative statement that is either *true* or *false*, but not both. It represents the content of a statement regardless of its linguistic form.
+A **proposition** is a declarative statement that is either *true* or *false*, but not both. It makes an assertion about reality and can be evaluated for truth. The linguistic form (English, math symbols, etc.) doesn’t matter; what matters is whether the content has a definite truth value.
 
 **Examples:**
 - "The Earth orbits the Sun" is a proposition because it can be evaluated as true.
@@ -28,8 +28,24 @@ A **simple proposition** is a single declarative statement that does **not** con
 - "The Moon is made of cheese" — false
 - "2 + 2 = 4" — true
 
+---
+
+### Propositional Function
+
+A **propositional function** is a statement containing one or more variables that becomes a **proposition** once specific values are substituted for those variables. Until the variables are assigned, the statement is neither true nor false.
+
+**Examples:**
+
+* $P(x):\; x > 5$ — not a proposition until $x$ is given a value.
+* If $x = 7$, then $P(7): 7 > 5$ is **true**.
+* If $x = 3$, then $P(3): 3 > 5$ is **false**.
+* $Q(x,y):\; x + y = 10$ — becomes a proposition once values of $x$ and $y$ are specified.
+
+---
+
 ### Predicate
-A **predicate** is a function or property that returns a truth value when applied to one or more subjects. In logic, it expresses something about an object or variable, often written as \( P(x) \).
+A **predicate** is essentially the property or relation expressed in a propositional function. In logic, it acts as a function that returns a truth value when applied to one or more subjects. Predicates are the building blocks of propositional functions. In practice, propositional functions and predicates often look the same (P(x), Q(x,y)), but **predicate** emphasizes the meaning (the property/relationship), while **propositional function** emphasizes the form (a function that turns into a proposition when variables are instantiated).
+
 
 **Examples:**
 - In "Socrates is mortal", "is mortal" is the predicate and "Socrates" is the subject. In predicate logic: Mortal(x) 
@@ -40,7 +56,7 @@ A **predicate** is a function or property that returns a truth value when applie
 ---
 
 ### Premise
-A **premise** is a proposition that provides support or reasons for a conclusion in an argument. Premises are the starting points of reasoning.
+In mathematics, a premise is often called a **hypothesis**. In a conditional statement ("If p, then q"), the **antecedent** (the "if" part) is a specific type of premise. Thus, every antecedent is a premise, but not every premise is an antecedent.
 
 **Examples:**
 - "All mammals are warm-blooded."
@@ -49,28 +65,28 @@ A **premise** is a proposition that provides support or reasons for a conclusion
 
 ---
 
-### Argument
-An **argument** is a group of propositions in which some (premises) are intended to support another (conclusion). It's the fundamental structure of reasoning.
-
-**Example 1:**
-   - Premise: All birds have feathers.  
-   - Premise: A sparrow is a bird.  
-   - Conclusion: Therefore, a sparrow has feathers.
-
-**Example 1:**
-   - Premise: If you study, you will pass.  
-   - Premise: You studied.  
-   - Conclusion: Therefore, you will pass.
-
----
-
 ### Conclusion
-A **conclusion** is the proposition that is supported or proven by the premises in an argument.
+A **conclusion** is the proposition that is supported or proven by the premises in an argument.  In a conditional statement ("If p, then q"), the consequence (the "then" part) corresponds to the conclusion of that conditional. Thus, every consequence is a conclusion, but not every conclusion is a consequence.
 
 **Examples:**
 - "Therefore, the Earth is round." (based on previous evidence/premises)
 - "Hence, she must be at home."
 - "It follows that all bachelors are unmarried."
+
+---
+
+### Argument
+An **argument** is a group of propositions in which some (premises) are intended to support another (conclusion). It's the fundamental structure of reasoning.
+
+**Example:**
+   - Premise: All birds have feathers.  
+   - Premise: A sparrow is a bird.  
+   - Conclusion: Therefore, a sparrow has feathers.
+
+**Example:**
+   - Premise: If you study, you will pass.  
+   - Premise: You studied.  
+   - Conclusion: Therefore, you will pass.
 
 ---
 

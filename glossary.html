@@ -392,10 +392,11 @@ document.write(`
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#simple-non-compound-proposition">Simple (Non-Compound) Proposition</a></li>
 </ul>
 </li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#propositional-function">Propositional Function</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#predicate">Predicate</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#premise">Premise</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#argument">Argument</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion">Conclusion</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#argument">Argument</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#inference-reasoning">Inference (Reasoning)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#validity-valid">Validity (Valid)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#converse">Converse</a></li>
@@ -430,7 +431,7 @@ document.write(`
 <h2>Glossary of Logical Terms<a class="headerlink" href="#glossary-of-logical-terms" title="Link to this heading">#</a></h2>
 <section id="proposition">
 <h3>Proposition<a class="headerlink" href="#proposition" title="Link to this heading">#</a></h3>
-<p>A <strong>proposition</strong> is a declarative statement that is either <em>true</em> or <em>false</em>, but not both. It represents the content of a statement regardless of its linguistic form.</p>
+<p>A <strong>proposition</strong> is a declarative statement that is either <em>true</em> or <em>false</em>, but not both. It makes an assertion about reality and can be evaluated for truth. The linguistic form (English, math symbols, etc.) doesn’t matter; what matters is whether the content has a definite truth value.</p>
 <p><strong>Examples:</strong></p>
 <ul class="simple">
 <li><p>“The Earth orbits the Sun” is a proposition because it can be evaluated as true.</p></li>
@@ -459,9 +460,22 @@ document.write(`
 </ul>
 </section>
 </section>
+<hr class="docutils" />
+<section id="propositional-function">
+<h3>Propositional Function<a class="headerlink" href="#propositional-function" title="Link to this heading">#</a></h3>
+<p>A <strong>propositional function</strong> is a statement containing one or more variables that becomes a <strong>proposition</strong> once specific values are substituted for those variables. Until the variables are assigned, the statement is neither true nor false.</p>
+<p><strong>Examples:</strong></p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(P(x):\; x &gt; 5\)</span> — not a proposition until <span class="math notranslate nohighlight">\(x\)</span> is given a value.</p></li>
+<li><p>If <span class="math notranslate nohighlight">\(x = 7\)</span>, then <span class="math notranslate nohighlight">\(P(7): 7 &gt; 5\)</span> is <strong>true</strong>.</p></li>
+<li><p>If <span class="math notranslate nohighlight">\(x = 3\)</span>, then <span class="math notranslate nohighlight">\(P(3): 3 &gt; 5\)</span> is <strong>false</strong>.</p></li>
+<li><p><span class="math notranslate nohighlight">\(Q(x,y):\; x + y = 10\)</span> — becomes a proposition once values of <span class="math notranslate nohighlight">\(x\)</span> and <span class="math notranslate nohighlight">\(y\)</span> are specified.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
 <section id="predicate">
 <h3>Predicate<a class="headerlink" href="#predicate" title="Link to this heading">#</a></h3>
-<p>A <strong>predicate</strong> is a function or property that returns a truth value when applied to one or more subjects. In logic, it expresses something about an object or variable, often written as ( P(x) ).</p>
+<p>A <strong>predicate</strong> is essentially the property or relation expressed in a propositional function. In logic, it acts as a function that returns a truth value when applied to one or more subjects. Predicates are the building blocks of propositional functions. In practice, propositional functions and predicates often look the same (P(x), Q(x,y)), but <strong>predicate</strong> emphasizes the meaning (the property/relationship), while <strong>propositional function</strong> emphasizes the form (a function that turns into a proposition when variables are instantiated).</p>
 <p><strong>Examples:</strong></p>
 <ul class="simple">
 <li><p>In “Socrates is mortal”, “is mortal” is the predicate and “Socrates” is the subject. In predicate logic: Mortal(x)</p></li>
@@ -473,7 +487,7 @@ document.write(`
 <hr class="docutils" />
 <section id="premise">
 <h3>Premise<a class="headerlink" href="#premise" title="Link to this heading">#</a></h3>
-<p>A <strong>premise</strong> is a proposition that provides support or reasons for a conclusion in an argument. Premises are the starting points of reasoning.</p>
+<p>In mathematics, a premise is often called a <strong>hypothesis</strong>. In a conditional statement (“If p, then q”), the <strong>antecedent</strong> (the “if” part) is a specific type of premise. Thus, every antecedent is a premise, but not every premise is an antecedent.</p>
 <p><strong>Examples:</strong></p>
 <ul class="simple">
 <li><p>“All mammals are warm-blooded.”</p></li>
@@ -482,31 +496,31 @@ document.write(`
 </ul>
 </section>
 <hr class="docutils" />
-<section id="argument">
-<h3>Argument<a class="headerlink" href="#argument" title="Link to this heading">#</a></h3>
-<p>An <strong>argument</strong> is a group of propositions in which some (premises) are intended to support another (conclusion). It’s the fundamental structure of reasoning.</p>
-<p><strong>Example 1:</strong></p>
-<ul class="simple">
-<li><p>Premise: All birds have feathers.</p></li>
-<li><p>Premise: A sparrow is a bird.</p></li>
-<li><p>Conclusion: Therefore, a sparrow has feathers.</p></li>
-</ul>
-<p><strong>Example 1:</strong></p>
-<ul class="simple">
-<li><p>Premise: If you study, you will pass.</p></li>
-<li><p>Premise: You studied.</p></li>
-<li><p>Conclusion: Therefore, you will pass.</p></li>
-</ul>
-</section>
-<hr class="docutils" />
 <section id="conclusion">
 <h3>Conclusion<a class="headerlink" href="#conclusion" title="Link to this heading">#</a></h3>
-<p>A <strong>conclusion</strong> is the proposition that is supported or proven by the premises in an argument.</p>
+<p>A <strong>conclusion</strong> is the proposition that is supported or proven by the premises in an argument.  In a conditional statement (“If p, then q”), the consequence (the “then” part) corresponds to the conclusion of that conditional. Thus, every consequence is a conclusion, but not every conclusion is a consequence.</p>
 <p><strong>Examples:</strong></p>
 <ul class="simple">
 <li><p>“Therefore, the Earth is round.” (based on previous evidence/premises)</p></li>
 <li><p>“Hence, she must be at home.”</p></li>
 <li><p>“It follows that all bachelors are unmarried.”</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="argument">
+<h3>Argument<a class="headerlink" href="#argument" title="Link to this heading">#</a></h3>
+<p>An <strong>argument</strong> is a group of propositions in which some (premises) are intended to support another (conclusion). It’s the fundamental structure of reasoning.</p>
+<p><strong>Example:</strong></p>
+<ul class="simple">
+<li><p>Premise: All birds have feathers.</p></li>
+<li><p>Premise: A sparrow is a bird.</p></li>
+<li><p>Conclusion: Therefore, a sparrow has feathers.</p></li>
+</ul>
+<p><strong>Example:</strong></p>
+<ul class="simple">
+<li><p>Premise: If you study, you will pass.</p></li>
+<li><p>Premise: You studied.</p></li>
+<li><p>Conclusion: Therefore, you will pass.</p></li>
 </ul>
 </section>
 <hr class="docutils" />
@@ -721,10 +735,11 @@ The inverse is <strong>not</strong> logically equivalent to the original stateme
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#simple-non-compound-proposition">Simple (Non-Compound) Proposition</a></li>
 </ul>
 </li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#propositional-function">Propositional Function</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#predicate">Predicate</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#premise">Premise</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#argument">Argument</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion">Conclusion</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#argument">Argument</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#inference-reasoning">Inference (Reasoning)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#validity-valid">Validity (Valid)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#converse">Converse</a></li>
