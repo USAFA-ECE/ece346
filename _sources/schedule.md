@@ -13,7 +13,7 @@ This schedule is subject to change as appropriate.
 |4  | Predicates & Quantifiers                   | 1.4-1.5          | HW1(L2-3)   |
 |5  | Rules of Inference                         | 1.6              |             |
 |6  | Intro to Proofs                            | 1.7              | HW2(L4-5)   |
-|7  |                                            |                  |             |
+|7  | M-day: no class, T-day: review             |                  |             |
 |8  | Sets & Set Operations                      | 2.1-2.2          |             |
 |9  | Functions                                  | 2.3              | HW3(L6-8)   |
 |10 | Sequences and Summations                   | 2.4              |             |
