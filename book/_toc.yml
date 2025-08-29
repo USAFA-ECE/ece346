@@ -9,6 +9,7 @@ parts:
   - file: syllabus.md
   - file: schedule.md
   - file: AI_policy.md
+  - file: SoftwareSetup.md
   - file: faq.md
 
 - caption: Assignments
