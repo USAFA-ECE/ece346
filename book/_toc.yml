@@ -12,10 +12,6 @@ parts:
   - file: SoftwareSetup.md
   - file: faq.md
 
-- caption: Assignments
-  chapters:
-  - glob: HW*
-
 - caption: Supplementary
   chapters:
   - file: glossary.md

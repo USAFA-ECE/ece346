@@ -15,13 +15,13 @@ Don’t worry if it doesn’t work right. If everything did, you’d be out of a
 ### Create a Repository within the GitHub Classroom
 
 1. If you don't already have a <a href="https://github.com/" target="_blank">GitHub</a> account, go ahead and create one.
-1. Once you have your account, browse to <a href="https://classroom.github.com/a/UkcATx9Y" target="_blank">ECE487 Classroom</a>.
+1. Once you have your account, browse to <a href="https://classroom.github.com/a/QO7fECt8" target="_blank">ECE346 Classroom</a>.
 1. Select `Accept this assignment`.
 1. Browse to your repository. Note the URL for your repository (save this link; it is the best way to check if your repo is updated).
-1. Go to `Settings` and change your repository name to `ece487-YourLastName`, e.g., `ece487-baek`.
+1. Go to `Settings` and change your repository name to `ece346-LastName`, e.g., `ece346-baek`.
 
 ```{important}
-Please name your repository as ece487-LastName. This will help instructors find your repository easily.
+Please name your repository as ece346-LastName. This will help instructors find your repository easily.
 ```
 
 ### Install Git
@@ -84,8 +84,8 @@ Skip this section and go [here](CloneRepo) if you already have set up the SSH co
 (CloneRepo)=
 ### Clone repository to your computer
 
-1. Create a new folder named `ece487_wksp` in your home directory, e.g., `C:\Users\stanley.baek\ece487_wksp`.
-1. Right-click on the `ece487_wksp` folder and select `Git Bash Here` from the menu.   
+1. Create a new folder named `ece346_wksp` in your home directory, e.g., `C:\Users\stanley.baek\ece346_wksp`.
+1. Right-click on the `ece346_wksp` folder and select `Git Bash Here` from the menu.   
 1. From the GitHub repository you created in this [section](CreateRepo), click Clone and copy the command that begins with `git clone` by clicking on the `copy` button as shown below.
     ```{image} ./figures/GitClone.png
     :width: 320
@@ -95,14 +95,14 @@ Skip this section and go [here](CloneRepo) if you already have set up the SSH co
 1. Paste it within the Bash terminal (middle-click, right-click > Paste, or Shift+Ins to paste) and add a space followed by a period as shown below. The period at the end means that the destination is the current folder. Hit Enter.
 1. If it asks for a password, enter the app password you saved in the previous step.
 
-    **Note**: The gif animation below has been adapted from ECE382. You must use ECE487 in place of ECE382.
+    **Note**: The gif animation below has been adapted from ECE382. You must use ECE346 in place of ECE382.
 
     ```{image} ./figures/GitClone.gif
     :width: 680
     :align: center
     ```
     <br>
-1. The figure below shows an example of a local `ece487_wksp` folder on your computer.
+1. The figure below shows an example of a local `ece346_wksp` folder on your computer.
 
     ```{image} ./figures/workspace_folder.png
     :width: 740
@@ -110,12 +110,12 @@ Skip this section and go [here](CloneRepo) if you already have set up the SSH co
     ```
     <br>
 
-1. Return to the Git Bash terminal. If it's closed, right-click an empty area inside the `ece487_wksp` folder and select `Git Bash Here` from the menu.
+1. Return to the Git Bash terminal. If it's closed, right-click an empty area inside the `ece346_wksp` folder and select `Git Bash Here` from the menu.
 1. Type `git remote -v` and press Enter.  You should see two lines indicating `origin` is your remote repository on GitHub for both fetching and pushing. 
 1. Add the instructor's repository as another remote source:
 
     ```bash
-    git remote add upstream https://github.com/ECE487/ece487_ws_2025.git
+    git remote add upstream https://github.com/ECE346/ece346_ws_2025.git
     ```
 1. Verify the upstream repository has been added by typing `git remote -v` and press Enter.  You should now see two additional lines indicating `upstream` is the original repository you forked from.
 
@@ -151,17 +151,13 @@ Skip this section and go [here](CloneRepo) if you already have set up the SSH co
     ```
     <br>
 
-1. To open the `ece487_wksp` folder with VS Code, right-click on the folder and choose `Open with Code` from the menu.
+1. To open the `ece346_wksp` folder with VS Code, right-click on the folder and choose `Open with Code` from the menu.
 1. Open the `Show All Commands` menu by going to Help or pressing `Shift+Ctrl+P`. This is a frequently used menu - remember the shortcut `Shift+Ctrl+P`.
 1. Create a virtual environment for Python typing in the first few letters of `Python: Create Environment` in the `Show All Commands` menu and select it.
 1. Choose `Venv` to create a virtual environment.  
 1. Select the Python path that you want to use.  
 1. Choose `requirements.txt` (`requirements_linux.txt` for Mac or Linux users) to install the Python packages for this course.
 1. Wait for a few minutes until all the packages are installed.
-1. Click the gear icon at the bottom-left corner and select `Settings`. 
-1. Select the `workspace` tab and click the page icon at the top-right corner. This will open `settings.json` 
-1. Open `vscode.md`, copy the code inside the curly braces, paste it into `settings.json`, and save the file.
-This ensures the virtual environment starts automatically when you open the workspace.
 
     ```{image} ./figures/VirtualEnvSetup.gif
     :width: 720
