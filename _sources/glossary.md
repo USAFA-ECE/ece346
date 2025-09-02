@@ -223,5 +223,3 @@ A **conjecture** is a statement that is believed to be true based on observation
 - Goldbach’s Conjecture: Every even integer greater than 2 is the sum of two primes.
 - Collatz Conjecture
 - Twin Prime Conjecture
-
----
