@@ -17,8 +17,8 @@ This schedule is subject to change as appropriate.
 |8  | Sets & Set Operations                      | 2.1-2.2          |             |
 |9  | Functions                                  | 2.3              | HW3(L6-8)   |
 |10 | Sequences and Summations                   | 2.4              |             |
-|11 | Algorithms                                 | 3.1              | HW4(L9-10)  |
-|12 | Growth of Functions & Basic Complexity     | 3.2-3.3          | Q1(L2-10)   |
+|11 | Algorithms                                 | 3.1-3.1.5        | HW4(L9-10)  |
+|12 | Growth of Functions & Basic Complexity     | 3.2-3.3.3        | Q1(L2-10)   |
 |13 | Mathematical Induction                     | 5.1              |             |
 |14 | Strong Induction & Recursion               | 5.2-5.2.3, 5.3.2 | HW5(L11-13) |
 |15 | Introduction to Graphs                     | 10.1-10.2        |             |
