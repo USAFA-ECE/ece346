@@ -15,13 +15,13 @@ Don’t worry if it doesn’t work right. If everything did, you’d be out of a
 ### Create a Repository within the GitHub Classroom
 
 1. If you don't already have a <a href="https://github.com/" target="_blank">GitHub</a> account, go ahead and create one.
-1. Once you have your account, browse to <a href="https://classroom.github.com/a/QO7fECt8" target="_blank">ECE346 Classroom</a>.
+1. Once you have your account, browse to <a href="https://classroom.github.com/a/GmOORucG" target="_blank">ECE346 Classroom</a>.
 1. Select `Accept this assignment`.
 1. Browse to your repository. Note the URL for your repository (save this link; it is the best way to check if your repo is updated).
-1. Go to `Settings` and change your repository name to `ece346-LastName`, e.g., `ece346-baek`.
+1. Go to `Settings` and change your repository name to `ece346-lastname`, using all lowercase letters, e.g., `ece346-baek`.
 
 ```{important}
-Please name your repository as ece346-LastName. This will help instructors find your repository easily.
+Please name your repository as ece346-lastname, using all lowercase letters. This will help instructors find your repository easily.
 ```
 
 ### Install Git
