@@ -18,14 +18,14 @@ This schedule is subject to change as appropriate.
 |9  | Functions                                  | 2.3              | HW3(L6-8)   |
 |10 | Sequences and Summations                   | 2.4              |             |
 |11 | Algorithms                                 | 3.1-3.1.5        | HW4(L9-10)  |
-|12 | Growth of Functions & Basic Complexity     | 3.2-3.3.3        | Q1(L2-10)   |
-|13 | Mathematical Induction                     | 5.1              |             |
-|14 | Strong Induction & Recursion               | 5.2-5.2.3, 5.3.2 | HW5(L11-13) |
-|15 | Introduction to Graphs                     | 10.1-10.2        |             |
-|16 | Graph Representations & Connectivity       | 10.3-10.4        | HW6(L14-15) |
-|17 | Euler and Hamilton Paths                   | 10.5             | Q2(L11-15)  |
+|12 | Growth of Functions                        | 3.2              | Q1(L2-10)   |
+|13 | Complexity of Algorithms                   | 3.3-3.3.3        |             |
+|14 | Mathematical Induction                     | 5.1              | HW5(L11-12) |
+|15 | Strong Induction & Recursion               | 5.2-5.2.3, 5.3.2 |             |
+|16 | Introduction to Graphs                     | 10.1-10.2        | HW6(L13-15) |
+|17 | Graph Representations & Connectivity       | 10.3-10.4        | Q2(L11-15)  |
 |18 | GR1 (L1-L15)                               |                  |             |
-|19 | Shortest-Path                              | 10.6             |             |
+|19 | Euler and Hamilton Paths, Shortest Path    | 10.5-10.6        |             |
 |20 | Probability Models, Conditional Probability| 1.2-1.3          | HW7(L16-19) |
 |21 | Bayes' rule, Independence of Events        | 1.4-1.5          |             |
 |22 | Discrete Random Variables                  | 2.1-2.2          | HW8(L20-21) |
