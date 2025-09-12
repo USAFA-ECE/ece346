@@ -205,7 +205,7 @@ Do **not** take pictures of your computer screen using a mobile device or camera
 - Push your updates to GitHub
 
 ### Deliverable 2
-- Provide a screenshot of your VS Code as shown below. Ensure that the `.venv` and `.vscode` folders are visible under the `EXPLORER` window.
+- Provide a screenshot of your VS Code as shown below. Ensure that the `.venv` folder is visible under the `EXPLORER` window.
 ```{image} ./figures/VSCode_Configured.png
 :width: 620
 :align: center
