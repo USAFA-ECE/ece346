@@ -1,7 +1,5 @@
 # 🧭 Dijkstra's Algorithm
 
-## 🎯 Objective: Your task is to implement Dijkstra’s algorithm to compute the shortest path in a weighted graph using an adjacency matrix.
-
 ## Overview
 
 In this homework assignment, you will complete a Python implementation of **Dijkstra’s algorithm**. The algorithm finds the shortest path between two nodes in a graph with non-negative edge weights. You are provided with a scaffolded codebase and a set of test cases. Your task is to fill in the missing logic using the pseudocode from **Lecture 16**.
