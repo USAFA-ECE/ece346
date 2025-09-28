@@ -10,6 +10,7 @@ parts:
   - file: schedule.md
   - file: AI_policy.md
   - file: SoftwareSetup.md
+  - file: Dijkstra.md
   - file: faq.md
 
 - caption: Supplementary
