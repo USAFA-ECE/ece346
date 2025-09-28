@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>ECE 346 Engineering Math &#8212; ECE 346</title>
+    <title>🧭 Dijkstra’s Algorithm &#8212; ECE 346</title>
   
   
   
@@ -57,13 +57,12 @@
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
-    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'intro';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Dijkstra';</script>
     <link rel="icon" href="_static/favicon.ico"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="📌 ECE346 Syllabus" href="syllabus.html" />
+    <link rel="next" title="🙋 FAQ" href="faq.html" />
+    <link rel="prev" title="🔨 Software Setup" href="SoftwareSetup.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -126,8 +125,6 @@
       
       
       
-        
-      
       <div class="bd-sidebar-primary bd-sidebar">
         
 
@@ -146,7 +143,7 @@
     
   
 
-<a class="navbar-brand logo" href="#">
+<a class="navbar-brand logo" href="intro.html">
   
   
   
@@ -177,19 +174,19 @@
     <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
-            <li class="toctree-l1 current active">
-                <a class="reference internal" href="#">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
                     ECE 346 Engineering Math
                 </a>
             </li>
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Course Info</span></p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="syllabus.html">📌 ECE346 Syllabus</a></li>
 <li class="toctree-l1"><a class="reference internal" href="schedule.html">📆 Course Schedule</a></li>
 <li class="toctree-l1"><a class="reference internal" href="AI_policy.html">🤖 AI Usage Policy</a></li>
 <li class="toctree-l1"><a class="reference internal" href="SoftwareSetup.html">🔨 Software Setup</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Dijkstra.html">🧭 Dijkstra’s Algorithm</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">🧭 Dijkstra’s Algorithm</a></li>
 <li class="toctree-l1"><a class="reference internal" href="faq.html">🙋 FAQ</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Supplementary</span></p>
@@ -266,7 +263,7 @@
       
       
       
-      <li><a href="https://github.com/USAFA-ECE/ece346/issues/new?title=Issue%20on%20page%20%2Fintro.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/USAFA-ECE/ece346/issues/new?title=Issue%20on%20page%20%2FDijkstra.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -296,7 +293,7 @@
       
       
       
-      <li><a href="_sources/intro.md" target="_blank"
+      <li><a href="_sources/Dijkstra.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -380,7 +377,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>ECE 346 Engineering Math</h1>
+    <h1>🧭 Dijkstra’s Algorithm</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -390,12 +387,18 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#instructors">👨‍🏫 Instructors</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#course-information">📝 Course information</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#communication">📡 Communication</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#late-policy">⏰ Late Policy:</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ai-usage-policy">🤖 AI Usage Policy</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#documentation-requirements">📄 Documentation Requirements</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#objective-your-task-is-to-implement-dijkstras-algorithm-to-compute-the-shortest-path-in-a-weighted-graph-using-an-adjacency-matrix">🎯 Objective: Your task is to implement Dijkstra’s algorithm to compute the shortest path in a weighted graph using an adjacency matrix.</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-outcomes">Learning Outcomes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#git-workflow">Git Workflow</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#instructions">Instructions</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#step-1-review-the-pseudocode">Step 1: Review the Pseudocode</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#step-2-complete-the-dijkstra-function">Step 2: Complete the <code class="docutils literal notranslate"><span class="pre">dijkstra()</span></code> Function</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#python-tip-using-sets">Python Tip: Using Sets</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#step-3-run-the-test-cases">Step 3: Run the Test Cases</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#submission">Submission</a></li>
 </ul>
             </nav>
         </div>
@@ -407,68 +410,150 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="ece-346-engineering-math">
-<h1>ECE 346 Engineering Math<a class="headerlink" href="#ece-346-engineering-math" title="Link to this heading">#</a></h1>
-<section id="instructors">
-<h2>👨‍🏫 Instructors<a class="headerlink" href="#instructors" title="Link to this heading">#</a></h2>
-<p><a class="reference external" href="https://stanbaek.github.io"><img alt="name" src="https://img.shields.io/badge/Instructor-Dr.%20Stan%20Baek-blue" /></a>
-<img alt="office" src="https://img.shields.io/badge/Office-Fairchild%202E38-red" />
-<a class="reference external" href="https://stanbaek.github.io"><img alt="web" src="https://img.shields.io/badge/Web-stanbaek.github.io-orange" /></a></p>
-<p><a class="reference external" href="https://stanbaek.github.io"><img alt="name" src="https://img.shields.io/badge/Instructor-LtCol%20James%20Trimble-blue" /></a>
-<img alt="office" src="https://img.shields.io/badge/Office-Fairchild%202E46C-red" /></p>
+  <section class="tex2jax_ignore mathjax_ignore" id="dijkstra-s-algorithm">
+<h1>🧭 Dijkstra’s Algorithm<a class="headerlink" href="#dijkstra-s-algorithm" title="Link to this heading">#</a></h1>
+<section id="objective-your-task-is-to-implement-dijkstras-algorithm-to-compute-the-shortest-path-in-a-weighted-graph-using-an-adjacency-matrix">
+<h2>🎯 Objective: Your task is to implement Dijkstra’s algorithm to compute the shortest path in a weighted graph using an adjacency matrix.<a class="headerlink" href="#objective-your-task-is-to-implement-dijkstras-algorithm-to-compute-the-shortest-path-in-a-weighted-graph-using-an-adjacency-matrix" title="Link to this heading">#</a></h2>
 </section>
-<section id="course-information">
-<h2>📝 Course information<a class="headerlink" href="#course-information" title="Link to this heading">#</a></h2>
+<section id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Link to this heading">#</a></h2>
+<p>In this homework assignment, you will complete a Python implementation of <strong>Dijkstra’s algorithm</strong>. The algorithm finds the shortest path between two nodes in a graph with non-negative edge weights. You are provided with a scaffolded codebase and a set of test cases. Your task is to fill in the missing logic using the pseudocode from <strong>Lecture 16</strong>.</p>
+</section>
+<hr class="docutils" />
+<section id="learning-outcomes">
+<h2>Learning Outcomes<a class="headerlink" href="#learning-outcomes" title="Link to this heading">#</a></h2>
+<p>By the end of this lab, you will be able to:</p>
 <ul class="simple">
-<li><p><strong>Course Goal</strong>: Cadets completing ECE 346 should be able to recognize and apply mathematical methods of modeling and solution in engineering practice. Specifically, they should develop the mathematical abilities to succeed in advanced Electrical Engineering courses.</p></li>
-<li><p><strong>Prerequisites</strong>: Math 243 and Math 245</p></li>
-<li><p><strong>Course Text</strong>:  Textbooks can be found <a class="reference internal" href="syllabus.html#syllabus-textbooks"><span class="std std-ref">here</span></a>, and reading materials/labs are posted on <a class="reference internal" href="schedule.html"><span class="std std-doc">Schedule</span></a>.</p></li>
-<li><p><strong>Syllabus</strong>: Posted <a class="reference internal" href="syllabus.html"><span class="std std-doc">here</span></a>.</p></li>
-<li><p><strong>Course Schedule</strong>: Posted <a class="reference internal" href="schedule.html"><span class="std std-doc">here</span></a> and subject to change.</p></li>
-</ul>
-</section>
-<section id="communication">
-<h2>📡 Communication<a class="headerlink" href="#communication" title="Link to this heading">#</a></h2>
-<ul class="simple">
-<li><p>All communication and announcement 📣 will be provided through a course and section Team.</p></li>
-<li><p>All lecture 📓 materials will be provided through MS Teams.</p></li>
-<li><p>All assignments must be submitted in <a class="reference external" href="https://www.gradescope.com">Gradescope</a></p></li>
-</ul>
-</section>
-<section id="late-policy">
-<h2>⏰ Late Policy:<a class="headerlink" href="#late-policy" title="Link to this heading">#</a></h2>
-<p><strong>If problems arise with graded assignments, see your instructor in advance</strong></p>
-<ul class="simple">
-<li><p>The cutoff for <strong>on-time submission is 08:00 🕖 a.m.</strong> on the due date.</p></li>
-<li><p>Late days are counted in 24-hour periods. Submitting between 08:00:01 on the due date and 08:00:00 the next day is one day late, and so on.</p></li>
-<li><p>You are given <strong>5 grace days (self-granted extensions)</strong> which you can use to give yourself extra time without penalty. No more than <strong>2 grace days</strong> can used for each assignment.</p></li>
-<li><p>Instructor-granted extensions are only considered after all grace days are used and only given in exceptional situations. Computer problems such as hard-drive reimaging are <strong>not</strong> considered as exceptional situations and you must use grace days.</p></li>
-<li><p>Late work handed in when you have run out of grace is 💥 <strong>discounted 20% for the first day late and 10% per day late thereafter</strong>.</p></li>
-<li><p>Every assignment has a hard deadline; <strong>4 days</strong> past the original due date.</p></li>
-<li><p>Late submissions (penalty or not) are not accepted after the hard deadline or after the solution to the assignment is published. No late submissions (penalty or not) will be accepted for the assignments right before GRs.</p></li>
-</ul>
-</section>
-<section id="ai-usage-policy">
-<h2>🤖 AI Usage Policy<a class="headerlink" href="#ai-usage-policy" title="Link to this heading">#</a></h2>
-<p>You are encouraged to use AI tools (such as ChatGPT, Gemini, Copilot, etc.) to <strong>support your understanding</strong> of course concepts—such as reviewing terminology, clarifying ideas, or generating practice problems. However, using AI to <strong>generate answers, code, or reports</strong> for assignments, projects, or exams is strictly prohibited and will be treated as a violation of academic integrity. All submitted work must reflect your own effort and understanding. For the full policy and examples of acceptable vs. unacceptable use, visit: <a class="reference internal" href="AI_policy.html"><span class="doc std std-doc">AI Usage Policy</span></a></p>
-</section>
-<section id="documentation-requirements">
-<h2>📄 Documentation Requirements<a class="headerlink" href="#documentation-requirements" title="Link to this heading">#</a></h2>
-<ul class="simple">
-<li><p>All help received on work submitted for grading must be documented in accordance with the course documentation policy.</p></li>
-<li><p>Each documentation statement must be specific enough that it explicitly describes what assistance was provided, how it was used in completing the assignment, and who provided the assistance.</p></li>
-<li><p>If no help was received on this assignment, the documentation statement must state “None.”</p></li>
-<li><p>If you checked answers with anyone, you must document with whom on which problems. You must document whether you made any changes or not.  If you did make changes, you must document the problems you changed and the reasons why.</p></li>
-<li><p>Vague documentation statements will result in a 5% deduction on the assignment.</p></li>
+<li><p>Apply Dijkstra’s algorithm to solve shortest path problems.</p></li>
+<li><p>Translate pseudocode into working Python code.</p></li>
+<li><p>Work with adjacency matrices and graph traversal logic.</p></li>
 </ul>
 <blockquote>
-<div><p>Disclaimer: The contents of this website are for educational use only and do not necessarily reflect the official policy or position of the United States Air Force Academy, the Department of the Air Force, or the U.S. Government.</p>
+<div><p>⚠️ <strong>Academic Integrity &amp; AI Policy</strong><br />
+Do not use AI tools (like Copilot or ChatGPT) to complete the core logic of this lab. You are expected to write your own code and demonstrate understanding.<br />
+Uphold your honor and follow the <a class="reference external" href="https://usafa-ece.github.io/ece346/AI_policy.html">ECE 346 AI policy</a>.</p>
 </div></blockquote>
 </section>
-<div class="toctree-wrapper compound">
+<hr class="docutils" />
+<section id="git-workflow">
+<h2>Git Workflow<a class="headerlink" href="#git-workflow" title="Link to this heading">#</a></h2>
+<p>Before pulling updates from the upstream repository, make sure your local changes are committed to avoid merge conflicts. Run the following commands:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>status
+git<span class="w"> </span>add<span class="w"> </span>-A
+git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;Add your message&quot;</span>
+git<span class="w"> </span>push
+</pre></div>
 </div>
-<div class="toctree-wrapper compound">
+<p>This ensures your work is saved and synced before integrating new changes from the course repository. To confirm that your upstream repository is configured correctly, run:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>remote<span class="w"> </span>-v
+</pre></div>
 </div>
+<p>You should see something like:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>git<span class="w"> </span>remote<span class="w"> </span>-v
+origin<span class="w">  </span>git@github.com:ECE-346/ece346_baek.git<span class="w"> </span><span class="o">(</span>fetch<span class="o">)</span>
+origin<span class="w">  </span>git@github.com:ECE-346/ece346_baek.git<span class="w"> </span><span class="o">(</span>push<span class="o">)</span>
+upstream<span class="w"> </span>https://github.com/ECE-346/ece346_ws_2025.git<span class="w"> </span><span class="o">(</span>fetch<span class="o">)</span>
+upstream<span class="w"> </span>https://github.com/ECE-346/ece346_ws_2025.git<span class="w"> </span><span class="o">(</span>push<span class="o">)</span>
+</pre></div>
+</div>
+<p>Then you can safely pull updates:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>pull<span class="w"> </span>upstream<span class="w"> </span>main
+</pre></div>
+</div>
+<p>Make sure the following files are present:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">shortest_path.py</span></code> (main scaffolded code)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">graph_utils.py</span></code> (helper functions for graph generation and visualization)</p></li>
+</ul>
+<p>Open the terminal via View &gt; Terminal. If your prompt starts with (.venv), your virtual environment is active. If not, activate it by running:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>.<span class="se">\.</span>venv<span class="se">\S</span>cripts<span class="se">\A</span>ctivate.ps1
+</pre></div>
+</div>
+<p>Then install the required packages:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>.<span class="se">\r</span>equirements.txt
+</pre></div>
+</div>
+</section>
+<section id="instructions">
+<h2>Instructions<a class="headerlink" href="#instructions" title="Link to this heading">#</a></h2>
+<section id="step-1-review-the-pseudocode">
+<h3>Step 1: Review the Pseudocode<a class="headerlink" href="#step-1-review-the-pseudocode" title="Link to this heading">#</a></h3>
+<p>Refer to <strong>Lecture 16</strong> for the pseudocode of Dijkstra’s algorithm. Understand the role of:</p>
+<ul class="simple">
+<li><p>Distance list <code class="docutils literal notranslate"><span class="pre">L</span></code></p></li>
+<li><p>Predecessor list <code class="docutils literal notranslate"><span class="pre">pred</span></code></p></li>
+<li><p>Visited set <code class="docutils literal notranslate"><span class="pre">S</span></code></p></li>
+<li><p>Node selection and neighbor updates</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="step-2-complete-the-dijkstra-function">
+<h3>Step 2: Complete the <code class="docutils literal notranslate"><span class="pre">dijkstra()</span></code> Function<a class="headerlink" href="#step-2-complete-the-dijkstra-function" title="Link to this heading">#</a></h3>
+<p>Open <code class="docutils literal notranslate"><span class="pre">shortest_path.py</span></code> and locate the following section:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">while</span> <span class="n">target</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">S</span><span class="p">:</span>
+    <span class="c1"># Use the Pseudo code from L16 S14 as a guide</span>
+    <span class="c1"># TODO: Write your code here</span>
+</pre></div>
+</div>
+<p>You must:</p>
+<ul class="simple">
+<li><p>Select the unvisited node with the smallest known distance.</p></li>
+<li><p>If no reachable node remains, return an empty path.</p></li>
+<li><p>Mark the selected node as visited.</p></li>
+<li><p>Update distances and predecessors for its neighbors.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="python-tip-using-sets">
+<h3>Python Tip: Using Sets<a class="headerlink" href="#python-tip-using-sets" title="Link to this heading">#</a></h3>
+<p>In this assignment, you will use a Python <code class="docutils literal notranslate"><span class="pre">set</span></code> to keep track of visited nodes. If you’re new to sets, here is a quick reminder:</p>
+<ul>
+<li><p>To check if a node <code class="docutils literal notranslate"><span class="pre">u</span></code> has already been visited, use:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">if</span> <span class="n">u</span> <span class="ow">in</span> <span class="n">S</span><span class="p">:</span>
+    <span class="c1"># u is already in the visited set</span>
+</pre></div>
+</div>
+</li>
+</ul>
+<p>Sets are fast and efficient for membership checks, making them ideal for tracking visited nodes in Dijkstra’s algorithm.</p>
+</section>
+<hr class="docutils" />
+<section id="step-3-run-the-test-cases">
+<h3>Step 3: Run the Test Cases<a class="headerlink" href="#step-3-run-the-test-cases" title="Link to this heading">#</a></h3>
+<p>The <code class="docutils literal notranslate"><span class="pre">main()</span></code> function includes several test cases. <strong>Do not modify them.</strong> These include:</p>
+<ul class="simple">
+<li><p>Simple 3-node graph</p></li>
+<li><p>Lecture examples (Slides 5 and 20)</p></li>
+<li><p>Exercise 10.6.2</p></li>
+<li><p>A graph with no path to target</p></li>
+<li><p>Randomly generated graphs with varying sizes</p></li>
+</ul>
+<p>Run the script using the triangle button at the top right corner. To debug, click the arrow next to the triangle and select “Python Debugger: Debug Python File”.</p>
+<p>Verify that your implementation correctly computes the shortest path and passes all tests.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>You will receive a grade of zero if your code crashes with an error. The minimum requirement for this assignment is that your code runs without crashing.</p>
+</div>
+</section>
+</section>
+<hr class="docutils" />
+<section id="submission">
+<h2>Submission<a class="headerlink" href="#submission" title="Link to this heading">#</a></h2>
+<p>Once your implementation is complete and all tests pass:</p>
+<ol class="arabic">
+<li><p>Commit your changes:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>add<span class="w"> </span>shortest_path.py
+git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;Completed Dijkstra&#39;s algorithm implementation&quot;</span>
+</pre></div>
+</div>
+</li>
+<li><p>Push to your repository:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>main
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -501,12 +586,21 @@ document.write(`
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="SoftwareSetup.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">🔨 Software Setup</p>
+      </div>
+    </a>
     <a class="right-next"
-       href="syllabus.html"
+       href="faq.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">📌 ECE346 Syllabus</p>
+        <p class="prev-next-title">🙋 FAQ</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -526,12 +620,18 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#instructors">👨‍🏫 Instructors</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#course-information">📝 Course information</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#communication">📡 Communication</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#late-policy">⏰ Late Policy:</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ai-usage-policy">🤖 AI Usage Policy</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#documentation-requirements">📄 Documentation Requirements</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#objective-your-task-is-to-implement-dijkstras-algorithm-to-compute-the-shortest-path-in-a-weighted-graph-using-an-adjacency-matrix">🎯 Objective: Your task is to implement Dijkstra’s algorithm to compute the shortest path in a weighted graph using an adjacency matrix.</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-outcomes">Learning Outcomes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#git-workflow">Git Workflow</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#instructions">Instructions</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#step-1-review-the-pseudocode">Step 1: Review the Pseudocode</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#step-2-complete-the-dijkstra-function">Step 2: Complete the <code class="docutils literal notranslate"><span class="pre">dijkstra()</span></code> Function</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#python-tip-using-sets">Python Tip: Using Sets</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#step-3-run-the-test-cases">Step 3: Run the Test Cases</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#submission">Submission</a></li>
 </ul>
   </nav></div>
 

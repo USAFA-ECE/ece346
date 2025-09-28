@@ -115,7 +115,7 @@ Skip this section and go [here](CloneRepo) if you already have set up the SSH co
 1. Add the instructor's repository as another remote source:
 
     ```bash
-    git remote add upstream https://github.com/ECE346/ece346_ws_2025.git
+    git remote add upstream https://github.com/ECE-346/ece346_ws_2025.git
     ```
 1. Verify the upstream repository has been added by typing `git remote -v` and press Enter.  You should now see two additional lines indicating `upstream` is the original repository you forked from.
 
