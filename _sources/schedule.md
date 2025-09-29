@@ -26,7 +26,7 @@ This schedule is subject to change as appropriate.
 |17 | Probability Models                         | B&T 1.2             | Q2(L11-15)  |
 |18 | GR1 (L1-L15)                               |                     |             |
 |19 | Conditional Probability                    | 1.3                 |             |   
-|20 | Bayes' rule, Independence of Events        | 1.4-1.5             | HW7(L16-L19)|
+|20 | Bayes' rule & Independence of Events       | 1.4-1.5             | HW7(L16-L19)|
 |21 | Discrete Random Variables                  | 2.1-2.2             |             |
 |22 | Expectation, Mean, Variance                | 2.3-2.4             | HW8(L20-21) |
 |23 | Joint PMFs                                 | 2.5                 |             |
