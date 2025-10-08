@@ -29,24 +29,24 @@ This schedule is subject to change as appropriate.
 |20 | Bayes' rule                                | 1.4                 | HW7(L16-L19)|
 |21 | Independence                               | 1.5                 |             |
 |22 | Discrete Random Variables                  | 2.1-2.2             | HW8(L20-21) |
-|23 | Expectation, Mean, Variance                | 2.3-2.4             |             |
-|24 | Joint PMFs                                 | 2.5                 | HW9(L22-23) |
-|25 | Conditioning and Independence              | 2.6-2.7             |             |
-|26 | Continuous RVs, PDFs, CDFs                 | 3.1-3.2             | HW10(L24-25)|
-|27 | Normal Random Variables                    | 3.3                 | Q3(L16-25)  | 
-|28 | Joint PDFs of Continuous RVs, Conditioning | 3.4-3.5             |             |
-|29 | Continuous Bayes’ Rule                     | 3.6                 | HW11(L26-28)|
-|30 | Derived Distributions                      | 4.1                 |             |
-|31 | Covariance and Correlation                 | 4.2                 | HW12(L29-30)|
-|32 | Conditional Expectation and Variance       | 4.3                 |             |
-|33 | Bayesian Inference                         | 8.1                 | HW13(L31-32)|
-|34 | MAP Estimation, Bayesian LMS Estimation    | 8.2-8.3             | Q4(L26-32)  |
+|23 | Expectation and Variance                   | 2.3-2.4             |             |
+|24 | Expectation and Variance                   | 2.3-2.4             | HW9(L22-23) |
+|25 | Joint PMFs                                 | 2.5                 |             |
+|26 | Conditioning and Independence              | 2.6-2.7             | HW10(L24-25)|
+|27 | Continuous RVs, PDFs, CDFs                 | 3.1-3.2             | Q3(L16-25)  |
+|28 | Normal Random Variables                    | 3.3                 |             | 
+|29 | Joint PDFs of Continuous RVs, Conditioning | 3.4-3.5             | HW11(L26-28)|
+|30 | Continuous Bayes’ Rule                     | 3.6                 |             |
+|31 | Derived Distributions                      | 4.1                 | HW12(L29-30)|
+|32 | Covariance and Correlation                 | 4.2                 |             |
+|33 | Conditional Expectation and Variance       | 4.3                 | HW13(L31-32)|
+|34 | TBD                                        |                     | Q4(L26-32)  |
 |35 | GR2 (L15-L32)                              |                     |             |
-|36 | Bayesian Linear LMS Estimation             | 8.4                 |             |
-|37 | Linear Regression                          | 9.1-9.2             | HW14(L33-36)|
-|38 | Hypothesis Testing                         | 9.3                 |             |
-|39 | Hypothesis Testing                         | 9.3                 | HW15(L37-38)|
-|40 | Review                                     |                     | Q5(33-39)   |
+|36 | Bayesian Inference                         | 8.1                 |             |
+|37 | MAP Estimation, Bayesian LMS Estimation    | 8.2-8.3             | HW14(L33-36)|
+|38 | Bayesian Linear LMS Estimation             | 8.4                 |             |
+|39 | Linear Regression                          | 9.1-9.2             | HW15(L37-38)|
+|40 | Hypothesis Testing                         | 9.3                 | Q5(33-39)   | 
 |   | Final Exam (L1-L40)                        |                     |             |
            
 
