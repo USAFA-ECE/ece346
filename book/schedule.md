@@ -47,7 +47,7 @@ This schedule is subject to change as appropriate.
 |38 | Bayesian Linear LMS Estimation             | 8.4                 |             |
 |39 | Linear Regression                          | 9.1-9.2             | HW15(L37-38)|
 |40 | Hypothesis Testing                         | 9.3                 | Q5(33-39)   | 
-|   | Final Exam (L1-L40)                        |                     |             |
+|   | Final Exam (L1-L40) F1 & F5, 2E10          |                     |             |
            
 
 
