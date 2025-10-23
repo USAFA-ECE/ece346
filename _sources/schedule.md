@@ -42,11 +42,11 @@ This schedule is subject to change as appropriate.
 |33 | Covariance and Correlation                 | 4.2                 | HW13(L31-32)|
 |34 | Conditional Expectation and Variance       | 4.3                 | Q4(L26-32)  |
 |35 | GR2 (L15-L32)                              |                     |             |
-|36 | Bayesian Inference                         | 8.1                 |             |
-|37 | MAP Estimation, Bayesian LMS Estimation    | 8.2-8.3             | HW14(L33-36)|
-|38 | Bayesian Linear LMS Estimation             | 8.4                 |             |
-|39 | Linear Regression                          | 9.1-9.2             | HW15(L37-38)|
-|40 | Hypothesis Testing                         | 9.3                 | Q5(33-39)   | 
+|36 | Transforms                                 | 4.4                 |             |
+|37 | Sum of a Random Number                     | 4.5                 | HW14(L33-36)|
+|38 | Markov and Chebyshev Inequalities          | 5.1                 |             |
+|39 | Law of Large Numbers                       | 5.2                 | HW15(L37-38)|
+|40 | Convergence and Central Limit Theorem      | 5.3-5.4             | Q5(33-39)   | 
 |   | Final Exam (L1-L40) F1 & F5, 2E10          |                     |             |
            
 
