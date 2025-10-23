@@ -34,13 +34,13 @@ This schedule is subject to change as appropriate.
 |25 | Joint PMFs                                 | 2.5                 |             |
 |26 | Conditioning and Independence              | 2.6-2.7             | HW10(L24-25)|
 |27 | Continuous RVs, PDFs, CDFs                 | 3.1-3.2             | Q3(L16-25)  |
-|28 | Normal Random Variables                    | 3.3                 |             | 
-|29 | Joint PDFs of Continuous RVs, Conditioning | 3.4-3.5             | HW11(L26-28)|
-|30 | Continuous Bayes’ Rule                     | 3.6                 |             |
-|31 | Derived Distributions                      | 4.1                 | HW12(L29-30)|
-|32 | Covariance and Correlation                 | 4.2                 |             |
-|33 | Conditional Expectation and Variance       | 4.3                 | HW13(L31-32)|
-|34 | TBD                                        |                     | Q4(L26-32)  |
+|28 | Continuous RVs, PDFs, CDFs                 | 3.1-3.2             |             |
+|29 | Normal Random Variables                    | 3.3                 | HW11(L26-28)| 
+|30 | Joint PDFs of Continuous RVs, Conditioning | 3.4-3.5             |             |
+|31 | Continuous Bayes’ Rule                     | 3.6                 | HW12(L29-30)|
+|32 | Derived Distributions                      | 4.1                 |             |
+|33 | Covariance and Correlation                 | 4.2                 | HW13(L31-32)|
+|34 | Conditional Expectation and Variance       | 4.3                 | Q4(L26-32)  |
 |35 | GR2 (L15-L32)                              |                     |             |
 |36 | Bayesian Inference                         | 8.1                 |             |
 |37 | MAP Estimation, Bayesian LMS Estimation    | 8.2-8.3             | HW14(L33-36)|
