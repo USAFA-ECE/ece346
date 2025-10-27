@@ -34,19 +34,19 @@ This schedule is subject to change as appropriate.
 |25 | Joint PMFs                                 | 2.5                 |             |
 |26 | Conditioning and Independence              | 2.6-2.7             | HW10(L24-25)|
 |27 | Continuous RVs, PDFs, CDFs                 | 3.1-3.2             | Q3(L16-25)  |
-|28 | Continuous RVs, PDFs, CDFs                 | 3.1-3.2             |             |
-|29 | Normal Random Variables                    | 3.3                 | HW11(L26-28)| 
-|30 | Joint PDFs of Continuous RVs, Conditioning | 3.4-3.5             |             |
-|31 | Continuous Bayes’ Rule                     | 3.6                 | HW12(L29-30)|
+|28 | Normal Random Variables                    | 3.3                 |             |
+|29 | Multiple Random Variables                  | 3.4                 | HW11(L26-27)| 
+|30 | Conditioning                               | 3.5                 |             |
+|31 | Continuous Bayes’ Rule                     | 3.6                 | HW12(L28-29)|
 |32 | Derived Distributions                      | 4.1                 |             |
-|33 | Covariance and Correlation                 | 4.2                 | HW13(L31-32)|
-|34 | Conditional Expectation and Variance       | 4.3                 | Q4(L26-32)  |
-|35 | GR2 (L15-L32)                              |                     |             |
+|33 | Covariance and Correlation                 | 4.2                 | HW13(L30-31)|
+|34 | Conditional Expectation and Variance       | 4.3                 | Q4(L26-31)  |
+|35 | GR2 (L15-L31)                              |                     |             |
 |36 | Transforms                                 | 4.4                 |             |
 |37 | Sum of a Random Number                     | 4.5                 | HW14(L33-36)|
 |38 | Markov and Chebyshev Inequalities          | 5.1                 |             |
 |39 | Law of Large Numbers                       | 5.2                 | HW15(L37-38)|
-|40 | Convergence and Central Limit Theorem      | 5.3-5.4             | Q5(33-39)   | 
+|40 | Review                                     |                     | Q5(33-39)   | 
 |   | Final Exam (L1-L40) F1 & F5, 2E10          |                     |             |
            
 
