@@ -40,13 +40,13 @@ This schedule is subject to change as appropriate.
 |31 | Continuous Bayes’ Rule                     | 3.6                 | HW12(L28-29)|
 |32 | Derived Distributions                      | 4.1                 |             |
 |33 | Covariance and Correlation                 | 4.2                 | HW13(L30-31)|
-|34 | Conditional Expectation and Variance       | 4.3                 | Q4(L26-31)  |
+|34 | Review                                     |                     | Q4(L26-31)  |
 |35 | GR2 (L15-L31)                              |                     |             |
-|36 | Transforms                                 | 4.4                 |             |
-|37 | Sum of a Random Number                     | 4.5                 | HW14(L33-36)|
+|36 | Conditional Expectation and Variance       | 4.3                 |             |
+|37 | Transforms                                 | 4.4                 | HW14(L32-36)|
 |38 | Markov and Chebyshev Inequalities          | 5.1                 |             |
 |39 | Law of Large Numbers                       | 5.2                 | HW15(L37-38)|
-|40 | Review                                     |                     | Q5(33-39)   | 
+|40 | Final Review                               |                     | Q5(32-39)   | 
 |   | Final Exam (L1-L40) F1 & F5, 2E10          |                     |             |
            
 
