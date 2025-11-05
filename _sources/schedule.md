@@ -38,16 +38,16 @@ This schedule is subject to change as appropriate.
 |29 | Normal Random Variables                    | 3.3                 | HW11(L26-27)|
 |30 | Multiple Random Variables                  | 3.4                 |             | 
 |31 | Conditioning                               | 3.5                 | HW12(L28-30)|
-|32 | Continuous Bayes’ Rule                     | 3.6                 |             |
-|33 | Derived Distributions                      | 4.1                 | HW13(L31-32)|
-|34 | Covariance and Correlation                 | 4.2                 | Q4(L26-32)  |
-|35 | GR2 (L15-L31)                              |                     |             |
-|36 | Conditional Expectation and Variance       | 4.3                 |             |
-|37 | Transforms                                 | 4.4                 | HW14(L33-36)|
-|38 | Markov and Chebyshev Inequalities          | 5.1                 |             |
+|32 | Conditioning                               | 3.5                 |             |
+|33 | Continuous Bayes’ Rule                     | 3.6                 | HW13(L31-32)|
+|34 | Derived Distributions                      | 4.1                 | Q4(L26-33)  |
+|35 | GR2 (L17-L33, B&T:1.2-3.6)                 |                     |             |
+|36 | Covariance and Correlation                 | 4.2                 |             |
+|37 | Conditional Expectation and Variance       | 4.3                 | HW14(L34-36)|
+|38 | Transforms                                 | 4.4                 |             |
 |39 | Law of Large Numbers                       | 5.2                 | HW15(L37-38)|
 |40 | Final Review                               |                     | Q5(33-39)   | 
-|   | Final Exam (L1-L40) F1 & F5, 2E10          |                     |             |
+|   | Final Exam (L1-L40) F1&F5, 2E10            |                     |             |
            
 
 
