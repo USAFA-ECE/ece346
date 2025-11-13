@@ -41,11 +41,11 @@ This schedule is subject to change as appropriate.
 |32 | Conditioning                               | 3.5                 |             |
 |33 | Continuous Bayes’ Rule                     | 3.6                 | HW13(L31-32)|
 |34 | Derived Distributions                      | 4.1                 | Q4(L26-33)  |
-|35 | GR2 (L17-L33, B&T:1.2-3.6)                 |                     |             |
-|36 | Covariance and Correlation                 | 4.2                 |             |
-|37 | Conditional Expectation and Variance       | 4.3                 | HW14(L34-36)|
-|38 | Transforms                                 | 4.4                 |             |
-|39 | Law of Large Numbers                       | 5.2                 | HW15(L37-38)|
+|35 | Derived Distributions                      | 4.1                 |             |
+|36 | GR2 (L17-L33, B&T:1.2-3.6)                 |                     |             |
+|37 | Covariance and Correlation                 | 4.2                 | HW14(L34-36)|
+|38 | Conditional Expectation and Variance       | 4.3                 |             |
+|39 | Transforms                                 | 4.4                 | HW15(L37-38)|
 |40 | Final Review                               |                     | Q5(33-39)   | 
 |   | Final Exam (L1-L40) F1&F5, 2E10            |                     |             |
            
