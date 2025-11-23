@@ -43,10 +43,10 @@ This schedule is subject to change as appropriate.
 |34 | Derived Distributions                      | 4.1                 | Q4(L26-33)  |
 |35 | Derived Distributions                      | 4.1                 |             |
 |36 | GR2 (L17-L33, B&T:1.2-3.6)                 |                     |             |
-|37 | Covariance and Correlation                 | 4.2                 | HW14(L34-36)|
-|38 | Conditional Expectation and Variance       | 4.3                 |             |
+|37 | Derived Distributions                      | 4.1                 | HW14(L34-36)|
+|38 | Covariance and Correlation                 | 4.2                 |             |
 |39 | Transforms                                 | 4.4                 | HW15(L37-38)|
-|40 | Final Review                               |                     | Q5(33-39)   | 
+|40 | Final Review                               |                     | Q5(34-39)   | 
 |   | Final Exam (L1-L40) F1&F5, 2E10            |                     |             |
            
 
